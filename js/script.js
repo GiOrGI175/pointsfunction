@@ -6,7 +6,7 @@ function getFeedback(point, name) {
   if (isNaN(points)) {
     alert('ვერ მოხერხდა ქულის იდენტიფიცირება შეიყვნაეთ თავიდან');
   } else if (points > 90) {
-    alert('მაქსიმალური ქულა არის 90');
+    alert('მაქსიმალური ქულა არის 90, გთხოვთ მომაწოდოთ რეალური ქულა');
   } else {
     if (point < 51) {
       let maxpoints = 51;
